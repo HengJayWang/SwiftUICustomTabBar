@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		35E63B1027C7BC28003C5AF6 /* SwiftUICustomTabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E63B0F27C7BC28003C5AF6 /* SwiftUICustomTabBarApp.swift */; };
-		35E63B1227C7BC28003C5AF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E63B1127C7BC28003C5AF6 /* ContentView.swift */; };
+		35E63B1227C7BC28003C5AF6 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E63B1127C7BC28003C5AF6 /* CustomTabBarView.swift */; };
 		35E63B1427C7BC2A003C5AF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E63B1327C7BC2A003C5AF6 /* Assets.xcassets */; };
 		35E63B1727C7BC2A003C5AF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E63B1627C7BC2A003C5AF6 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		35E63B0C27C7BC28003C5AF6 /* SwiftUICustomTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICustomTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E63B0F27C7BC28003C5AF6 /* SwiftUICustomTabBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICustomTabBarApp.swift; sourceTree = "<group>"; };
-		35E63B1127C7BC28003C5AF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		35E63B1127C7BC28003C5AF6 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		35E63B1327C7BC2A003C5AF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35E63B1627C7BC2A003C5AF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				35E63B0F27C7BC28003C5AF6 /* SwiftUICustomTabBarApp.swift */,
-				35E63B1127C7BC28003C5AF6 /* ContentView.swift */,
+				35E63B1127C7BC28003C5AF6 /* CustomTabBarView.swift */,
 				35E63B1327C7BC2A003C5AF6 /* Assets.xcassets */,
 				35E63B1527C7BC2A003C5AF6 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35E63B1227C7BC28003C5AF6 /* ContentView.swift in Sources */,
+				35E63B1227C7BC28003C5AF6 /* CustomTabBarView.swift in Sources */,
 				35E63B1027C7BC28003C5AF6 /* SwiftUICustomTabBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
