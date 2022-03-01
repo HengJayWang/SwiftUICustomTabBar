@@ -59,7 +59,8 @@ struct CustomTabBarView: View {
                 }
             }
             
-            Divider().padding(.bottom, 12)
+            Divider()
+                .background(Color(.secondarySystemBackground))
             
             HStack {
                 ForEach(0..<5) { index in
@@ -69,7 +70,7 @@ struct CustomTabBarView: View {
                         selectedTabIndex = index
                     } label: {
                         if index == 2 {
-                            Rectangle().frame(width: 1).foregroundColor(Color(.systemBackground))
+                            Rectangle().frame(width: 0).foregroundColor(Color(.systemBackground))
                         } else {
                             Image(systemName: tabImages[index])
                                 .font(.system(size: 26, weight: .bold))
@@ -80,8 +81,9 @@ struct CustomTabBarView: View {
                     Spacer()
                 }
             }
-            .frame(height: 36)
-            .background(Color(.systemBackground))
+            .frame(height: UIScreen.main.bounds.height / 10)
+            .frame(maxWidth: .infinity)
+            .background(Color(.secondarySystemBackground))
             .overlay{
                 Button {
                     showFullScreenCover = true
@@ -93,6 +95,7 @@ struct CustomTabBarView: View {
                 }
             }
         }
+        .ignoresSafeArea()
     }
 }
 

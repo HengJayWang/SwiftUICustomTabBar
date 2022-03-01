@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUICustomTabBarApp: App {
     var body: some Scene {
         WindowGroup {
-            CustomTabBarView()
+            TabBarWithPopUpMenu()
         }
     }
 }

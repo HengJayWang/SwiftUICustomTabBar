@@ -11,6 +11,9 @@
 		35E63B1227C7BC28003C5AF6 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E63B1127C7BC28003C5AF6 /* CustomTabBarView.swift */; };
 		35E63B1427C7BC2A003C5AF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E63B1327C7BC2A003C5AF6 /* Assets.xcassets */; };
 		35E63B1727C7BC2A003C5AF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E63B1627C7BC2A003C5AF6 /* Preview Assets.xcassets */; };
+		F19E10ED27CDFCD200636E35 /* TabBarWithPopUpMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E10EC27CDFCD200636E35 /* TabBarWithPopUpMenu.swift */; };
+		F19E10EF27CE0CBD00636E35 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E10EE27CE0CBD00636E35 /* ViewRouter.swift */; };
+		F19E10F127CE12CD00636E35 /* PopUpMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E10F027CE12CD00636E35 /* PopUpMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		35E63B1127C7BC28003C5AF6 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		35E63B1327C7BC2A003C5AF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35E63B1627C7BC2A003C5AF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F19E10EC27CDFCD200636E35 /* TabBarWithPopUpMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarWithPopUpMenu.swift; sourceTree = "<group>"; };
+		F19E10EE27CE0CBD00636E35 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		F19E10F027CE12CD00636E35 /* PopUpMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 			children = (
 				35E63B0F27C7BC28003C5AF6 /* SwiftUICustomTabBarApp.swift */,
 				35E63B1127C7BC28003C5AF6 /* CustomTabBarView.swift */,
+				F19E10EB27CDFC4500636E35 /* CustomTabBarWithPopUpMenu */,
 				35E63B1327C7BC2A003C5AF6 /* Assets.xcassets */,
 				35E63B1527C7BC2A003C5AF6 /* Preview Content */,
 			);
@@ -65,6 +72,16 @@
 				35E63B1627C7BC2A003C5AF6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F19E10EB27CDFC4500636E35 /* CustomTabBarWithPopUpMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F19E10EC27CDFCD200636E35 /* TabBarWithPopUpMenu.swift */,
+				F19E10EE27CE0CBD00636E35 /* ViewRouter.swift */,
+				F19E10F027CE12CD00636E35 /* PopUpMenu.swift */,
+			);
+			path = CustomTabBarWithPopUpMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19E10F127CE12CD00636E35 /* PopUpMenu.swift in Sources */,
 				35E63B1227C7BC28003C5AF6 /* CustomTabBarView.swift in Sources */,
+				F19E10ED27CDFCD200636E35 /* TabBarWithPopUpMenu.swift in Sources */,
 				35E63B1027C7BC28003C5AF6 /* SwiftUICustomTabBarApp.swift in Sources */,
+				F19E10EF27CE0CBD00636E35 /* ViewRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
